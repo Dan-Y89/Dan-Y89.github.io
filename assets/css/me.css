@@ -147,14 +147,14 @@ body.page-template-page-fullsingle-me {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -ms-flex-item-align: center;
-      align-self: center;
+  -ms-flex-item-align: left;
+      align-self: left;
   -webkit-animation: fadein 2s;
           animation: fadein 2s; }
   @media (max-width: 500px) {
     .logo {
-      -ms-flex-item-align: left;
-          -ms-grid-row-align: left;
+      -ms-flex-item-align: center;
+          -ms-grid-row-align: center;
           align-self: center; } }
   .logo img {
     max-width: 165px;
